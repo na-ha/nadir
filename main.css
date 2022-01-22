@@ -64,6 +64,11 @@ button:focus {
 
 #less {
     display: none;
+    margin-bottom: 0.6em;
+}
+
+#more {
+    margin-bottom: 0.6em;
 }
 
 #details {
