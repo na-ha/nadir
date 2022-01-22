@@ -76,6 +76,7 @@ button:focus {
     font-size: 33px;
     border: 1px solid white;
     margin-top: 0.9em;
+    padding: 0.6em
 }
 
 #header {
