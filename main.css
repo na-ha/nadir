@@ -18,6 +18,7 @@ a {
     color: whitesmoke;
     text-decoration: none;
     padding: 0em;
+    margin-bottom: 0.3em;
 }
 
 a:hover {
@@ -57,7 +58,7 @@ button:focus {
 }
 
 #n1 {
-    width: 300px;
+    width: 240px;
 }
 
 #buy {
@@ -99,5 +100,4 @@ button:focus {
     justify-content: space-between;
     align-items: center;
     align-content: space-between;
-    margin-bottom: 0.3em;
 }
