@@ -18,8 +18,7 @@ body {
 a {
     color: whitesmoke;
     text-decoration: none;
-    padding: 0.3em;
-
+    padding: 0em;
 }
 
 a:hover {
@@ -51,7 +50,7 @@ button:focus {
 }
 
 #title {
-    margin-top: 66px;
+    margin-top: 9px;
     font-size: calc(33px + 2vmin);
     margin-bottom: 0.6em;
     text-align: left;
