@@ -56,32 +56,14 @@ button:focus {
     text-align: left;
 }
 
-#menu {
-    margin-bottom: 0.6em;
+#n1 {
+    width: 300px;
 }
 
-#b1 {
-    background-color: rgb(235, 51, 40);
-}
-
-#b2 {
-    background-color: rgb(236, 93, 42);
-}
-
-#b3 {
-    background-color: rgb(244, 210, 78);
-}
-
-#b4 {
-    background-color: rgb(66, 140, 71);
-}
-
-#b5 {
-    background-color: rgb(60, 89, 155);
-}
-
-#b6 {
-    background-color: rgb(124, 27, 126);
+#buy {
+    background-color: white;
+    color: black;
+    font-size: 33px;
 }
 
 #header {
