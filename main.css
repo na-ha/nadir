@@ -71,8 +71,8 @@ button:focus {
 }
 
 #buy {
-    background-color: white;
-    color: black;
+    background-color: black;
+    color: white;
     font-size: 33px;
     border: 1px solid white;
     border-radius: 3px;
