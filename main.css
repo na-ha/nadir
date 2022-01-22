@@ -1,0 +1,113 @@
+body {
+    background: white;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    font-family: 'Cinzel', serif;
+    text-align: center;
+    cursor: default;
+    color: black;
+    overflow: hidden;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    font-weight: bolder;
+    padding: 0.6em;
+
+}
+
+a:hover {
+    color: white;
+    background-color: black;
+}
+
+button {
+    border: none;
+    font-family: 'Cinzel' , serif;
+    font-weight: 600;
+    font-size: calc(6px + 2vmin);
+    cursor: grab;
+    padding: 0.6em;
+    margin-left: 0.6em;
+    margin-right: 0.6em;
+}
+
+button:active {
+    transform: scale(1.1);
+}
+
+
+button:focus {
+    outline: none;  
+}
+
+
+#studio66 {
+    margin-top: 66px;
+    font-size: calc(33px + 2vmin);
+    font-weight: 700;
+    margin-bottom: 0.6em;
+}
+
+#menu {
+    margin-bottom: 0.6em;
+}
+
+#b1 {
+    background-color: rgb(235, 51, 40);
+}
+
+#b2 {
+    background-color: rgb(236, 93, 42);
+}
+
+#b3 {
+    background-color: rgb(244, 210, 78);
+}
+
+#b4 {
+    background-color: rgb(66, 140, 71);
+}
+
+#b5 {
+    background-color: rgb(60, 89, 155);
+}
+
+#b6 {
+    background-color: rgb(124, 27, 126);
+}
+
+#header {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin-bottom: 66px;
+}
+
+#content {
+    margin-top: 333px;
+    margin-bottom: 333px;
+    margin-right: 6em;
+    margin-left: 6em;
+    font-size: 15px;
+}
+
+#email {
+    font-size: 15px;
+    font-weight: 900;
+}
+#footer {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    font-size: 6px;
+    color: black;
+    font-weight: lighter;
+    background-color: white;
+}
