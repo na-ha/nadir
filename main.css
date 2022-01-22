@@ -33,6 +33,9 @@ button {
     padding: 0em;
     margin-left: 0.6em;
     margin-right: 0.6em;
+    background-color: black;
+    color: white;
+    text-decoration: underline;
 }
 
 button:active {
@@ -45,13 +48,11 @@ button:focus {
 }
 
 #logo {
-    width: 66px;
+    width: 100px;
 }
 
 #title {
     margin-top: 9px;
-    font-size: calc(33px + 2vmin);
-    margin-bottom: 0.6em;
     text-align: left;
 }
 
@@ -63,6 +64,7 @@ button:focus {
     background-color: white;
     color: black;
     font-size: 33px;
+    border: 1px solid white;
 }
 
 #header {
