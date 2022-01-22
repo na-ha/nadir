@@ -1,13 +1,18 @@
 body {
-    background: white;
+    background: black;
     margin: 0;
     padding: 0;
     align-items: center;
-    font-family: 'Cinzel', serif;
+    font-family: 'optician';
     text-align: center;
     cursor: default;
     color: black;
     overflow: hidden;
+}
+
+@font-face {
+  font-family: 'optician';
+  src: url(/Optician-Sans.ttf);
 }
 
 a {
@@ -25,11 +30,10 @@ a:hover {
 
 button {
     border: none;
-    font-family: 'Cinzel' , serif;
-    font-weight: 600;
+    font-family: 'optician';
     font-size: calc(6px + 2vmin);
     cursor: grab;
-    padding: 0.6em;
+    padding: 0.3em;
     margin-left: 0.6em;
     margin-right: 0.6em;
 }
@@ -47,7 +51,7 @@ button:focus {
     width: 66px;
 }
 
-#studio66 {
+#title {
     margin-top: 66px;
     font-size: calc(33px + 2vmin);
     font-weight: 700;
