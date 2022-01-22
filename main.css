@@ -16,16 +16,16 @@ body {
 }
 
 a {
-    color: black;
+    color: whitesmoke;
     text-decoration: none;
     font-weight: bolder;
-    padding: 0.6em;
+    padding: 0.3em;
 
 }
 
 a:hover {
-    color: white;
-    background-color: black;
+    color: black;
+    background-color: white;
 }
 
 button {
@@ -33,7 +33,6 @@ button {
     font-family: 'optician';
     font-size: calc(6px + 2vmin);
     cursor: grab;
-    padding: 0.3em;
     margin-left: 0.6em;
     margin-right: 0.6em;
 }
@@ -48,13 +47,12 @@ button:focus {
 }
 
 #logo {
-    width: 66px;
+    width: 15px;
 }
 
 #title {
     margin-top: 66px;
     font-size: calc(33px + 2vmin);
-    font-weight: 700;
     margin-bottom: 0.6em;
 }
 
@@ -114,7 +112,11 @@ button:focus {
     right: 0;
     bottom: 0;
     font-size: 6px;
-    color: black;
-    font-weight: lighter;
-    background-color: white;
+    color: white;
+    background-color: black;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: space-between;
 }
