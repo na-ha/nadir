@@ -47,13 +47,14 @@ button:focus {
 }
 
 #logo {
-    width: 15px;
+    width: 12px;
 }
 
 #title {
     margin-top: 66px;
     font-size: calc(33px + 2vmin);
     margin-bottom: 0.6em;
+    text-align: left;
 }
 
 #menu {
