@@ -43,6 +43,9 @@ button:focus {
     outline: none;  
 }
 
+#logo {
+    width: 66px;
+}
 
 #studio66 {
     margin-top: 66px;
