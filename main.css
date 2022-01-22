@@ -29,7 +29,7 @@ a:hover {
 button {
     border: none;
     font-family: 'optician';
-    font-size: calc(6px + 2vmin);
+    font-size: 12px;
     cursor: grab;
     padding: 0em;
     margin-left: 0.6em;
@@ -59,6 +59,10 @@ button:focus {
 
 #n1 {
     width: 180px;
+}
+
+#less {
+    display: none;
 }
 
 #buy {
