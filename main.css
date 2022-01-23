@@ -6,7 +6,6 @@ body {
     font-family: 'optician';
     text-align: center;
     cursor: default;
-    overflow: hidden;
 }
 
 @font-face {
