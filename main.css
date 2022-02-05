@@ -88,6 +88,15 @@ button:focus {
     text-decoration: none;
 }
 
+#nft {
+    background-color: white;
+    color: black;
+    font-size: 24px;
+    margin-top: 0.9em;
+    padding: 0.3em;
+    text-decoration: none;
+}
+
 
 #buy:hover {
     background-color: black;
@@ -95,6 +104,11 @@ button:focus {
     border: 1px solid white;
 }
 
+#nft:hover {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}
 #header {
     position: fixed;
     z-index: 1;
