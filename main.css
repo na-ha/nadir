@@ -93,10 +93,9 @@ button:focus {
     color: black;
     font-size: 24px;
     margin-top: 0.9em;
-    padding: 0.3em;
+    padding: 0.2em;
     text-decoration: none;
 }
-
 
 #buy:hover {
     background-color: black;
@@ -109,6 +108,7 @@ button:focus {
     color: white;
     border: 1px solid white;
 }
+
 #header {
     position: fixed;
     z-index: 1;
