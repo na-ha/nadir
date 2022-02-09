@@ -79,6 +79,13 @@ button:focus {
     display: none;
 }
 
+#matrix {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
 .buy {
     background-color: white;
     color: black;
@@ -94,7 +101,20 @@ button:focus {
     border: 1px solid white;
 }
 
+.nft {
+    background-color: white;
+    color: black;
+    font-size: 18px;
+    margin-top: 0.9em;
+    padding: 0.3em;
+    text-decoration: none;
+}
 
+.nft:hover {
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}
 #header {
     position: fixed;
     z-index: 1;
