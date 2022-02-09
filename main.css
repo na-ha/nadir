@@ -99,8 +99,8 @@ button:focus {
 }
 
 #matrix p {
-    margin-block-start: 0.1em;
-    margin-block-end: 0em;
+    margin-block-start: 0.3em;
+    margin-block-end: 0.3em;
 }
 
 .avail {
@@ -126,6 +126,7 @@ button:focus {
 .nft {
     text-decoration: underline;
     margin-block-end: 1em;
+    font-size: 12px;
 }
 
 
