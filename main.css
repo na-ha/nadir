@@ -117,6 +117,7 @@ button:focus {
 
 .nft {
     text-decoration: underline;
+    margin-block-end: 1em;
 }
 
 
