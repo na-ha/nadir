@@ -79,35 +79,21 @@ button:focus {
     display: none;
 }
 
-#buy {
+.buy {
     background-color: white;
     color: black;
-    font-size: 33px;
+    font-size: 24px;
     margin-top: 0.9em;
     padding: 0.3em;
     text-decoration: none;
 }
 
-#nft {
-    background-color: white;
-    color: black;
-    font-size: 24px;
-    margin-top: 0.9em;
-    padding: 0.2em;
-    text-decoration: none;
-}
-
-#buy:hover {
+.buy:hover {
     background-color: black;
     color: white;
     border: 1px solid white;
 }
 
-#nft:hover {
-    background-color: black;
-    color: white;
-    border: 1px solid white;
-}
 
 #header {
     position: fixed;
