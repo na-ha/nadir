@@ -88,6 +88,11 @@ button:focus {
 
 #matrix div {
     border: 1px solid white;
+    border-radius: 9px;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
 
 #matrix p {
