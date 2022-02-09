@@ -108,9 +108,9 @@ button:focus {
 .buy {
     background-color: black;
     color: white;
-    font-size: 24px;
+    font-size: 18px;
     margin-top: 0.9em;
-    padding: 0em;
+    padding: 0.3em;
     text-decoration: none;
     border-radius: 6px;
 }
