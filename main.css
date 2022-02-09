@@ -77,6 +77,7 @@ button:focus {
 
 #details {
     display: none;
+    width: 90%;
 }
 
 #matrix {
