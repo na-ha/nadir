@@ -112,6 +112,7 @@ button:focus {
 #matrix p {
     margin-block-start: 0.3em;
     margin-block-end: 0.3em;
+    font-family: 'nasal';
 }
 
 .soldout {
@@ -132,6 +133,7 @@ button:focus {
     padding: 0.3em;
     text-decoration: none;
     border-radius: 36px;
+    font-family: 'optician';
 }
 
 .nft {
@@ -140,6 +142,7 @@ button:focus {
     background: white;
     padding: 0.4em;
     color: black;
+    font-family: 'optician';
 }
 
 
