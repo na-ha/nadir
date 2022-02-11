@@ -177,4 +177,6 @@ button:focus {
     justify-content: space-between;
     align-items: center;
     align-content: space-between;
+    margin-left: 9px;
+    margin-right: 9px;
 }
