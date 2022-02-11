@@ -58,7 +58,8 @@ button:focus {
 }
 
 #title {
-    margin-top: 9px;
+    margin-top: 15px;
+    margin-left: 15px;
     text-align: left;
 }
 
