@@ -3,14 +3,14 @@ body {
     margin: 0;
     padding: 0;
     align-items: center;
-    font-family: 'optician';
+    font-family: 'nasal';
     text-align: center;
     cursor: default;
 }
 
 @font-face {
-  font-family: 'optician';
-  src: url(/Optician-Sans.ttf);
+  font-family: 'nasal';
+  src: url(/nasalization.otf);
 }
 
 a {
@@ -32,7 +32,7 @@ h1 {
 
 button {
     border: none;
-    font-family: 'optician';
+    font-family: 'nasal';
     font-size: 12px;
     cursor: grab;
     padding: 0em;
