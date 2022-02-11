@@ -23,6 +23,7 @@ a {
 
 a:hover {
     text-decoration: underline;
+    color:#808080;
 }
 
 h1 {
@@ -124,11 +125,6 @@ button:focus {
     padding: 0.3em;
     text-decoration: none;
     border-radius: 36px;
-}
-
-.buy:hover {
-    background-color: white;
-    color: black;
 }
 
 .nft {
