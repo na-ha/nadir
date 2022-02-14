@@ -80,6 +80,8 @@ button:focus {
 
 #desc, #ori, #sca  {
     margin-bottom: 1.5em;
+        width: 90px;
+    height: 30px;
 }
 
 #desc:focus {     
