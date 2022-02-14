@@ -1,13 +1,19 @@
-document.getElementById("more").addEventListener("click", function () {
-  document.getElementById("details").style.display = "inline-block";
-  document.getElementById("more").style.display = "none";
-  document.getElementById("less").style.display = "inline-block";
+document.getElementById("desc").addEventListener("click", function () {
+  document.getElementById("description").style.display = "inline-block";
+  document.getElementById("origins").style.display = "none";
+  document.getElementById("scarcity").style.display = "none";
 });
 
-document.getElementById("less").addEventListener("click", function () {
-  document.getElementById("details").style.display = "none";
-  document.getElementById("more").style.display = "inline-block";
-  document.getElementById("less").style.display = "none";
+document.getElementById("ori").addEventListener("click", function () {
+  document.getElementById("description").style.display = "none";
+  document.getElementById("origins").style.display = "inline-block";
+  document.getElementById("scarcity").style.display = "none";
+});
+
+document.getElementById("sca").addEventListener("click", function () {
+  document.getElementById("description").style.display = "none";
+  document.getElementById("origins").style.display = "none";
+  document.getElementById("scarcity").style.display = "inline-block";
 });
 
 document.getElementById("get").addEventListener("click", function () {
