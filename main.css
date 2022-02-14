@@ -91,6 +91,14 @@ button:focus {
     width: 77%;
 }
 
+#get  {
+    background: white;
+    border-radius: 18px;
+    color: black;
+    font-size: 25px;
+    text-decoration: none;
+}
+
 #matrix {
     display: none;
     flex-flow: row wrap;
