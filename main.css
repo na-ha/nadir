@@ -75,6 +75,7 @@ button:focus {
 #im {
     width: 270px;
     margin-bottom: 0.3em;
+    border-radius: 15px;
 }
 
 #desc, #ori, #sca  {
