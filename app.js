@@ -17,7 +17,7 @@ document.getElementById("get").addEventListener("click", function () {
 
 axios.get('https://api.kraken.com/0/public/Ticker?pair=XETHZEUR')
   .then(function (response) {
-    document.getElementById("ticker").innerText = ~~response["data"]["result"]["XETHZEUR"]["a"][0];
+    document.getElementById("ticker").innerText = ~~(response["data"]["result"]["XETHZEUR"]["a"][0]/10);
     console.log(response);
   })
   .catch(function (error) {
