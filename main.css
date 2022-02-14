@@ -101,6 +101,10 @@ button:focus {
     width: 150px;
 }
 
+#currency {
+    display:none;
+}
+
 #matrix {
     display: flex;
     flex-flow: row wrap;
