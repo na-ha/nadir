@@ -15,10 +15,18 @@ document.getElementById("get").addEventListener("click", function () {
   document.getElementById("get").style.display = "none";
 });
 
-const request = new Request('https://api.kraken.com/0/public/Ticker?pair=XETHZEUR', {
-  method: 'GET',
- });
+const axios = require('axios');
 
-request.json().then(function(data) {
-  console.log(data)
-});
+axios.get('https://api.kraken.com/0/public/Ticker?pair=XETHZEUR')
+  .then(function (response) {
+    document.getElementById("ticker").innerText = response[result][XETHZEUR][a][0].toFixed(0);
+    console.log(response);
+  })
+  .catch(function (error) {
+    document.getElementById("ticker").innerText = "xxx";
+    console.log(error);
+  })
+  .then(function () {
+     console.log(data);
+  });
+
