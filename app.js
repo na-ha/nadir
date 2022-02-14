@@ -20,5 +20,5 @@ const request = new Request('https://api.kraken.com/0/public/Ticker?pair=XETHZEU
  });
 
 request.json().then(function(data) {
-  document.getElementById("ticker").innerText = data[result][XETHZEUR][a][0].toFixed(0);
+  console.log(data)
 });
