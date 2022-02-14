@@ -14,3 +14,11 @@ document.getElementById("get").addEventListener("click", function () {
   document.getElementById("currency").style.display = "block";
   document.getElementById("get").style.display = "none";
 });
+
+const request = new Request('https://api.kraken.com/0/public/Ticker?pair=XETHZEUR', {
+  method: 'GET',
+ });
+
+request.json().then(function(data) {
+  document.getElementById("ticker").innerText = data[result][XETHZEUR][a][0].toFixed(0);
+});
