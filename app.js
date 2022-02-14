@@ -9,3 +9,8 @@ document.getElementById("less").addEventListener("click", function () {
   document.getElementById("more").style.display = "inline-block";
   document.getElementById("less").style.display = "none";
 });
+
+document.getElementById("get").addEventListener("click", function () {
+  document.getElementById("matrix").style.display = "inline-block";
+  document.getElementById("get").style.display = "none";
+});
