@@ -77,16 +77,11 @@ button:focus {
     margin-bottom: 0.3em;
 }
 
-#less {
-    display: none;
+#desc, #ori, #sca  {
     margin-bottom: 1.5em;
 }
 
-#more {
-    margin-bottom: 1.5em;
-}
-
-#details {
+#description, #origins, #scarcity   {
     display: none;
     width: 77%;
 }
