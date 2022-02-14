@@ -11,6 +11,6 @@ document.getElementById("less").addEventListener("click", function () {
 });
 
 document.getElementById("get").addEventListener("click", function () {
-  document.getElementById("currency").style.display = "flex";
+  document.getElementById("currency").style.display = "block";
   document.getElementById("get").style.display = "none";
 });
