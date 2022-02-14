@@ -82,7 +82,17 @@ button:focus {
     margin-bottom: 1.5em;
 }
 
-#desc, #ori, #sca :focus {     
+#desc:focus {     
+    text-decoration: none; 
+    font-size: 15px;
+}
+
+#ori:focus {     
+    text-decoration: none; 
+    font-size: 15px;
+}
+
+#sca:focus {     
     text-decoration: none; 
     font-size: 15px;
 }
