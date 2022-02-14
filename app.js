@@ -11,6 +11,6 @@ document.getElementById("less").addEventListener("click", function () {
 });
 
 document.getElementById("get").addEventListener("click", function () {
-  document.getElementById("matrix").style.display = "inline-block";
+  document.getElementById("matrix").style.display = "flex";
   document.getElementById("get").style.display = "none";
 });
