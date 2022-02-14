@@ -82,6 +82,11 @@ button:focus {
     margin-bottom: 1.5em;
 }
 
+#desc, #ori, #sca :focus {     
+    text-decoration: none; 
+    font-size: 15px;
+}
+
 #description, #origins, #scarcity   {
     display: none;
     width: 77%;
