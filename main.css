@@ -97,10 +97,12 @@ button:focus {
     color: black;
     font-size: 25px;
     text-decoration: none;
+    padding: 0.3em;
+    width: 150px;
 }
 
 #matrix {
-    display: none;
+    display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
     align-items: center;
