@@ -73,7 +73,7 @@ button:focus {
 }
 
 #im {
-    width: 100%;
+    width: 90%;
     height: auto;
     margin-bottom: 0.3em;
     margin-top: 0.3em;
@@ -113,14 +113,17 @@ button:focus {
     font-size: 25px;
     text-decoration: none;
     padding: 0.3em;
-    width: 150px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
+    width: 138px;
+position: absolute;
+top: 61%;
+left: 43.5%;
 }
 
 #currency {
     display:none;
+    position: absolute;
+    top: 60%;
+    left: 35%;
 }
 
 #matrix {
@@ -193,7 +196,7 @@ button:focus {
     font-size: 15px;
     color: white;
     position: relative;
-    width: 90%;
+    width: 100%;
 }
 
 #footer {
